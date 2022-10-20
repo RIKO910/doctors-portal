@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       "cupcake",
-      "dark",
+      
     ],
   },
   plugins: [require("daisyui")],
