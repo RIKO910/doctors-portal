@@ -5,12 +5,12 @@ import './Service.css'
 
 const Service = () => {
     return (
-        <div className=''>        
+        <div className='py-10'>        
             <h3 className='our'>OUR SERVICES</h3>
             <h1 className='service'>Services We Provide</h1>
 
             <Card></Card>
-            <Info></Info>
+            {/* <Info></Info> */}
         </div>
     );
 };

@@ -4,7 +4,7 @@ import cavity from '../../../../assets/images/cavity.png'
 import teeth from '../../../../assets/images/whitening.png'
 const Card = () => {
     return (
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-col gap-5 px-12">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-col gap-5 px-12 mb-11 pb-11">
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={fluoride}alt="Shoes" /></figure>
                 <div className="card-body items-center text-center">
