@@ -2,11 +2,12 @@ import { format } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 import Service from './Service/Service';
 
+
 const AvailableAppointment = ({date}) => {
     const [services,setServices] =useState([]);
 
     useEffect(()=>{
-        fetch('service.json')
+        fetch('services.json')
         .then(res=>res.json())
         .then(data=>setServices(data))
     }
