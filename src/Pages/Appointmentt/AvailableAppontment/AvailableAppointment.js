@@ -20,7 +20,7 @@ const AvailableAppointment = ({date}) => {
             </p>
             <h4  className='text-xl text-center mt-3 '> Please select a service</h4>
 
-            <div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-12 mb-20 mt-11'>
                 {
                     services.map(service=><Service
                     key={service._id}
