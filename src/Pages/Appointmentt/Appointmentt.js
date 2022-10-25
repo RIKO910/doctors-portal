@@ -3,6 +3,7 @@ import Footer from '../Shared/Footer/Footer';
 import AppointmentBanner from './AppointmentBanner/AppointmentBanner';
 import AvailableAppointment from './AvailableAppontment/AvailableAppointment';
 import Service from './AvailableAppontment/Service/Service';
+import BookingModal from './BookingModal/BookingModal';
 
 const Appointmentt = () => {
     const [date ,setDate] =useState(new Date())
